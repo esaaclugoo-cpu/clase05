@@ -1,10 +1,11 @@
 body{
-    margin: 0;
+    display: flex;
+    border: 0;
 }
 
 div{
     box-sizing: border-box;
-    display: block;
+    display: flex;
     margin: 16px;
     height: min-content;
     width: min-content;
@@ -34,7 +35,7 @@ figure img{
 
 figcaption{
     margin-top: 10px;
-    font-size: 0.85px;
+    font-size: 0.85rem;
     color: #555;
     text-align: center;
 }
